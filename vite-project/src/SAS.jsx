@@ -38,6 +38,17 @@ function SAS() {
       >
         <source src="/mk.mp4" type="video/mp4" />
       </motion.video>
+      <motion.p
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+        whileHover={{ scale: 1.2, transition: { duration: 0.5 } }}
+        hover={{ textShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)" }}
+        className="text-lg text-blue-600 text-center mb-10 font-bold font-sans"
+      >
+       Makan risol enak cik 😂
+      </motion.p>
+
       <motion.img
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
