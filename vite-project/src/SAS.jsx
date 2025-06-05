@@ -38,7 +38,6 @@ function SAS() {
       >
         <source src="/mk.mp4" type="video/mp4" />
       </motion.video>
-      <p>Makan Risol Enak cik😂</p>
       <motion.img
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
